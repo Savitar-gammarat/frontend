@@ -5,8 +5,13 @@ export default {
     //     this.shopList = object
     // }
     globalPublishList:[],
+    site_list:[],
+    // this is a dict
     setGlobalPublishList(object){
         this.globalPublishList = object
-        console.log(this.globalPublishList)
+    },
+    // this is a list
+    setSite_list(object){
+        this.site_list = object
     }
 }
