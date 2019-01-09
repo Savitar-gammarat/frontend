@@ -46,16 +46,16 @@
 				})
 			},
 			get_search_message_list(){
-				axios.get('search').then(response=>{
-					this.search_message_list = response.data.search_message_list
-				})
+                axios.get('search').then(response=>{
+                    this.search_message_list = response.data.search_message_list
+                })
 			},
 			noMessage(){
 				this.first = true
 			}
 		},
 		mounted() {
-			this.get_search_message_list()
+			setTimeout(this.get_search_message_list,3000)
 		}
 	}
 </script>

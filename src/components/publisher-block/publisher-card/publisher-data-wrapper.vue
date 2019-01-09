@@ -31,7 +31,7 @@
 				let leave1= date3 % (24*3600*1000)
 				let hours= Math.floor(leave1/(3600*1000))
 				if (hours === 0 && days === 0){
-					return '最新'
+					return 'New'
 				}
 				if (days === 0){
 					return hours + 'H'

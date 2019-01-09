@@ -3,12 +3,12 @@
 		<!--可参照Vue Material中Drawer-->
 		<md-toolbar class="navigation md-transparent">
 			<h3 class="md-title" style="flex: 1">
-				<logo></logo>Title
+				<logo></logo>News aggregation
 			</h3>
 			<md-icon style="cursor: pointer" class="md-size-2x" @click.native="showCard = !showCard">view_headline</md-icon>
 			<!--<slide-menu></slide-menu>-->
 			<div class="relative">
-				<md-card class="md-elevation-10 slide-card" v-if="!showCard">
+				<md-card class="md-elevation-10 slide-card" v-if="showCard">
 					<md-list>
 						<md-list-item class="toggle">
 							<md-icon>move_to_inbox</md-icon>

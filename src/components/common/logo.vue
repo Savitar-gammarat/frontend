@@ -1,5 +1,5 @@
 <template>
-	<img src="../../assets/logo.png" alt="logo">
+	<img src="http://www.tamakooo.com/logos/logo.jpg" alt="logo">
 </template>
 
 <script>
@@ -11,7 +11,7 @@
 <style scoped>
 img{
 	width: 100%;
-	height: 100%;
+	/*small bug*/
 	max-height: 50px;
 	max-width: 50px;
 }
