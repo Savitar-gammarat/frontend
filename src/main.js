@@ -9,7 +9,7 @@ import global from './global'
 
 Vue.use(VueMaterial)
 Vue.config.productionTip = false
-axios.defaults.baseURL = "http://tamakooo.com:5000/api/v0"
+axios.defaults.baseURL = "http://www.tamakooo.com:5000/api/v0"
 Vue.prototype.$global = global
 
 new Vue({
